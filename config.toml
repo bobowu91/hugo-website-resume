@@ -1,0 +1,51 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Eddie Webb"
+theme = "hugo-resume"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+    firstName = "Yibo"
+    lastName = "Wang"
+    address = "Toronto, Canada"
+    phone = "1-555-555-1234"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "img/TechChat.png"
+    email = "ywang.msc2019@ivey.ca"
+    description = "A smart genius who often makes silly mistakes."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = true
+    showOpenSource = true
+    showPublications = true
+    showExperience = true
+    showEducation = true
+
+    showQr = true
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/yibowang0901/"
+
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/bobowu91/"
+
+[[params.handles]]
+    name = "Bitbucket"
+    link = "https://bitbucket.org/eddiewebb/"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/story/82880"
+    icon = "stack-overflow"
+
+[[params.handles]]
+    name = "Keybase"
+    link = "https://keybase.io/edwardawebb"
+    icon = "keybase"
+
+[params.google.analytics]
+    trackerID = "UA-138062966-1"
